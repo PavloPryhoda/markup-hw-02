@@ -3,9 +3,31 @@
     --title-color:#757575;
     --acent-color:#2196F3;
 }
-
+.list {
+    list-style: none;
+}
 body {
-    font-family:Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
+}
+
+.header-logo {
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.52px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #000000;
+}
+
+.header-pre-logo {
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.52px;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--acent-color);
 }
 
 .header-link {
@@ -16,6 +38,9 @@ letter-spacing: 0.02em;
 text-align: left;
 color: var(--text-color);
 }
+.header-link:hover,:focus{
+    color: var(--acent-color);
+}
 
 .header-mail {
 font-size: 14px;
@@ -25,6 +50,9 @@ letter-spacing: 0.02em;
 text-align: left;
 color: var(--title-color);
 }
+.header-mail:hover,:focus {
+color: var(--acent-color);
+}
 
 .header-tel {
 font-size: 14px;
@@ -33,6 +61,9 @@ line-height: 16.41px;
 letter-spacing: 0.02em;
 text-align: left;
 color: var(--title-color);
+} 
+.header-tel:hover,:focus {
+    color: var(--acent-color);
 }
 
 .hero-text {
@@ -51,4 +82,64 @@ line-height: 30px;
 letter-spacing: 0.06em;
 text-align: center;
 color: #212121;
+}
+
+.footer{
+    background-color:#2F303A;
+}
+
+.footer-logo {
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.52px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #ffffff;
+}
+
+.footer-pre-logo {
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.52px;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--acent-color);
+}
+
+.footer-nav {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #ffffff;
+}
+.footer-nav:hover,:focus {
+    color: var(--acent-color);
+}
+
+.footer-mail {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color:#FFFFFF99;
+}
+.footer-mail:hover,:focus{
+    color: var(--acent-color);
+}
+
+.footer-tel {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF99;
+}
+.footer-tel:hover,:focus{
+    color: var(--acent-color);
 }
