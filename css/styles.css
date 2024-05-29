@@ -93,6 +93,7 @@ font-family: "Roboto", "sans-serif";
     line-height: 1.87;
     letter-spacing: 0.06em;
     text-align: center;
+    cursor: pointer;
     color: #212121;
 }
 /* -----------------------------------CONTENT----------------------------------- */
@@ -254,6 +255,7 @@ address {
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--text-color);
+    cursor: pointer;
 }
 .list-btn:hover,
 .list-btn:focus {
